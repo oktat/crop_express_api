@@ -7,16 +7,16 @@ async function up({context: QueryInterface}) {
       id: 1,
       name: 'Puli',
       country: 'Hungary',
-      yearOfFoundatin: 2000,
+      yearOfFoundation: 2000,
       capacityHectare: 1000,
       createdAt: now,
       updatedAt: now
     },
     {
       id: 2,
-      name: 'Puli',
+      name: 'Csom Inc',
       country: 'Hungary',
-      yearOfFoundatin: 2000,
+      yearOfFoundation: 2000,
       capacityHectare: 1000,
       createdAt: now,
       updatedAt: now      
@@ -24,9 +24,9 @@ async function up({context: QueryInterface}) {
     {
       id: 3,
       name: 'Cson Inc',
-      country: 'Polan',
-      yearOfFoundatin: 2000,
-      capacityHectare: 1000,
+      country: 'Poland',
+      yearOfFoundation: 1995,
+      capacityHectare: 800,
       createdAt: now,
       updatedAt: now
     },
@@ -34,8 +34,8 @@ async function up({context: QueryInterface}) {
       id: 4,
       name: 'Huli Inc',
       country: 'Portugal',
-      yearOfFoundatin: 2000,
-      capacityHectare: 1000,
+      yearOfFoundation: 2002,
+      capacityHectare: 900,
       createdAt: now,
       updatedAt: now
     },
@@ -43,8 +43,8 @@ async function up({context: QueryInterface}) {
       id: 5,
       name: 'Far Kft',
       country: 'Hungary',
-      yearOfFoundatin: 2000,
-      capacityHectare: 1000,
+      yearOfFoundation: 2005,
+      capacityHectare: 1200,
       createdAt: now,
       updatedAt: now
     },
@@ -52,8 +52,8 @@ async function up({context: QueryInterface}) {
       id: 6,
       name: 'Dotto Kft',
       country: 'Hungary',
-      yearOfFoundatin: 2000,
-      capacityHectare: 1000,
+      yearOfFoundation: 1998,
+      capacityHectare: 1010,
       createdAt: now,
       updatedAt: now
     },
@@ -61,8 +61,8 @@ async function up({context: QueryInterface}) {
       id: 7,
       name: 'Párduc Kft',
       country: 'Hungary',
-      yearOfFoundatin: 2000,
-      capacityHectare: 1000,
+      yearOfFoundation: 2020,
+      capacityHectare: 900,
       createdAt: now,
       updatedAt: now
     },
@@ -70,8 +70,8 @@ async function up({context: QueryInterface}) {
       id: 8,
       name: 'Jóvi Kft',
       country: 'Hungary',
-      yearOfFoundatin: 2000,
-      capacityHectare: 1000,
+      yearOfFoundation: 2004,
+      capacityHectare: 1100,
       createdAt: now,
       updatedAt: now
     },
@@ -79,7 +79,7 @@ async function up({context: QueryInterface}) {
       id: 9,
       name: 'Roli Bt',
       country: 'Hungary',
-      yearOfFoundatin: 2000,
+      yearOfFoundation: 2004,
       capacityHectare: 1000,
       createdAt: now,
       updatedAt: now
@@ -88,7 +88,7 @@ async function up({context: QueryInterface}) {
       id: 10,
       name: 'Csend Kft',
       country: 'Hungary',
-      yearOfFoundatin: 2000,
+      yearOfFoundation: 2000,
       capacityHectare: 1000,
       createdAt: now,
       updatedAt: now

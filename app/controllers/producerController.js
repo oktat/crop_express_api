@@ -54,7 +54,13 @@ const ProducerController = {
         }
     },
     async tryStore(req, res) {
-        const producer = await Producer.create(req.body)
+        const tmpProducer = {
+            name: req.body.name,
+            country: req.body.country,
+            yearOfFoundation: req.body.yearOfFoundation,
+            capacityHectare: req.body.capacityHectare
+        }
+        const producer = await Producer.create(tmpProducer)
         res.status(201)
         res.json({
             success: true,
@@ -81,7 +87,13 @@ const ProducerController = {
         }
     },
     async tryUpdate(req, res) {
-        const recordNumber = await Producer.update(req.body, {
+        const tempProducer = {
+            name: req.body.name,
+            country: req.body.country,
+            yearOfFoundation: req.body.yearOfFoundation,
+            capacityHectare: req.body.capacityHectare
+        }
+        const recordNumber = await Producer.update(tempProducer, {
             where: { id: req.params.id }
         })
         if(recordNumber == 0) {

@@ -14,7 +14,7 @@ async function up({context: QueryInterface}) {
     country: {
       type: DataTypes.STRING
     },
-    yearOfFoundatin: {
+    yearOfFoundation: {
       type: DataTypes.INTEGER
     },
     capacityHectare: {

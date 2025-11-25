@@ -54,7 +54,13 @@ const CropController = {
         }
     },
     async tryStore(req, res) {
-        const crop = await Crop.create(req.body)
+        const tmpCrop = {
+            name: req.body.name,
+            type: req.body.type,
+            proteinContent: req.body.proteinContent,
+            producerId: req.body.producerId
+        }        
+        const crop = await Crop.create(tmpCrop)
         res.status(201)
         res.json({
             success: true,
@@ -81,7 +87,13 @@ const CropController = {
         }
     },
     async tryUpdate(req, res) {
-        const recordNumber = await Crop.update(req.body, {
+        const tempCrop = {
+            name: req.body.name,
+            type: req.body.type,
+            proteinContent: req.body.proteinContent,
+            producerId: req.body.producerId
+        }
+        const recordNumber = await Crop.update(tempCrop, {
             where: { id: req.params.id }
         })
         if(recordNumber == 0) {
