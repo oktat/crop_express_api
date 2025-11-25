@@ -1,12 +1,15 @@
-# sip expressapi template
+# Crop Express REST API
 
-Express based REST API template
+Express based REST API
 
-## Install dependencies
+## Install
 
 ```cmd
 npm install
-npm run dev
+node op conf:generate
+node op migrate
+node op db:seed
+npm start
 ```
 
 See the docs directory for details.
