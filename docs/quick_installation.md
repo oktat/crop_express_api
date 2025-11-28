@@ -18,3 +18,15 @@ Run migration and seeder:
 node op migrate
 node op db:seed
 ```
+
+Start server:
+
+```bash
+npm start
+```
+
+for development:
+
+```bash
+npm run dev
+```

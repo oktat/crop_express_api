@@ -57,7 +57,7 @@ Example:
 {
   name: "Budapesti Kereskedelmi Kft.",
   country: "Hungary",
-  yearOfFoundatin: 2000,
+  yearOfFoundation: 2000,
   capacityHectare: 1000
 }
 ```
@@ -70,7 +70,7 @@ Example:
 {
   name: "Budapesti Kereskedelmi Kft.",
   country: "Hungary",
-  yearOfFoundatin: 2000,
+  yearOfFoundation: 2000,
   capacityHectare: 1000
 }
 ```
